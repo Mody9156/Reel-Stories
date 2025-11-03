@@ -7,6 +7,9 @@
 
 import Foundation
 
-struct Story {
-    
+struct Story: Identifiable {
+    var id = UUID()
+    var url: String
+    var type : MediaType
+    var duration : Double
 }
