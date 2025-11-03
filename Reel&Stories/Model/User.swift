@@ -7,6 +7,8 @@
 
 import Foundation
 
-struct USer:Identifiable {
+struct User: Identifiable {
+    var id = UUID()
+
     
 }
